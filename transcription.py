@@ -1,5 +1,5 @@
 """
-TranscriptionEngine — the actual Demucs -> Whisper pipeline.
+TranscriptionEngine, the actual Demucs -> Whisper pipeline.
 
 Kept separate from main.py so the FastAPI route stays a thin
 request/response layer and this file holds only the ML pipeline logic —

@@ -1,5 +1,5 @@
 """
-Audivo Transcription Service — standalone FastAPI microservice.
+Audivo Transcription Service, standalone FastAPI microservice.
 
 Single responsibility: accept an uploaded audio file, run it through
 Demucs (vocal isolation) then faster-whisper (transcription), and return
